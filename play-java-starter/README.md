@@ -55,18 +55,50 @@ sbt
 # it will start loading all dependencies it needs for setting its own build process up
 # you will then enter the sbt console, here you can issue commands such as:
 
+# compiles the source
 compile
 
+# starts a dev server right there, with hot reload
 run
 
+# run tests in `test` folder
 test
 
-package
-
-# which are self explanatory
-# Interesting fact, if have `run` task active you can change code and reload your browser, it will automagically recompile
+# create a zip with start script, will start as own Java web app process
+dist
 
 ```
+
+For production you will need to generate a secret, this will be used for hashing cookies etc.
+
+https://playframework.com/documentation/2.5.x/ApplicationSecret
+
+```
+# in the sbt console
+playGenerateSecret
+
+[info] Generated new secret: UQ<S8v>8gum8Py109Brd2YLG0rB`P[OcZWYyX:?XH:t<;;drO4u<J3J?ZAaJeKDm
+[success] Total time: 0 s, completed 19/09/2017 3:56:09 PM
+
+```
+
+You can either put this into the application.conf file or provide it as a commandline flag when starting the dist play server app:
+
+```
+bin/play-java -Dplay.crypto.secret='UQ<S8v>8gum8Py109Brd2YLG0rB`P[OcZWYyX:?XH:t<;;drO4u<J3J?ZAaJeKDm'
+```
+
+And by the way, the memory config switches are like so (not sure what I messed p in the session though :-) ):
+
+```
+# make sure it fits your production environment if you have to specify those
+bin/play-java -J-Xms256M -J-Xmx768m
+
+# smaller, megabytes M or m should have worked both
+# sys monitor still indicated that this jvm process took about 180MB though
+bin/play-java -J-Xms64m -J-Xmx128M
+```
+
 
 Useful documentation links to start exploring:
 
