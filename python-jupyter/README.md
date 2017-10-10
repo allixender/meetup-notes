@@ -43,6 +43,10 @@ Here it becomes obvious how practical virtual environments can be. They help you
  
 ```shell
 (C:\dev\conda3) conda create --name py34 python=3.4
+
+and then show all environments:
+
+#> conda env list
 ```
 
 Now we want to activate that environment and start working with it:
@@ -54,6 +58,10 @@ activate py34
 ```shell
 (py34) conda install jupyter
 ```
+
+latest: http://pandas.pydata.org/pandas-docs/version/0.20.3/index.html (https://pandas.pydata.org/pandas-docs/stable/index.html)
+
+0.19.2 (used by Geopandas): http://pandas.pydata.org/pandas-docs/version/0.19.2/
 
 ```shell
 (py34) conda install pandas=0.19.2
@@ -69,7 +77,20 @@ cd C:\Users\Alexander\Documents\meetup\python-jupyter
 
 ## Geospatial data wrangling with Geopandas
 
+http://geopandas.org/index.html
+
 ```shell
 (py34) conda install -c conda-forge geopandas
 ```
 
+## licenses and Copyright Attributions
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+<br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+This work uses some materials from the following repositories:
+- https://github.com/leriomaggio/python-in-a-notebook
+- https://github.com/jrjohansson/scientific-python-lectures
+- https://github.com/jvns/pandas-cookbook
