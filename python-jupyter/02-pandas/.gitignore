@@ -1,2 +1,3 @@
 .ipynb_checkpoints
 data/hourly_temp.csv
+data/test_db.sqlite
