@@ -8,18 +8,26 @@ GeoPandas extends the datatypes used by pandas to allow spatial operations on ge
 Geometric operations are performed by shapely.
 Geopandas further depends on fiona for file access and descartes and matplotlib for plotting.
 
+We will need some Excel Python libs:
+
+```shell
+(py34) conda install xlrd
+```
+
+Maybe we also need "openpyxl", but let's try to not mix too many libs for same/similar purposes.
+
 Table of Contents
 =================
 
-* [Basic Geoplot Shapefile](Basic%20Geoplot%20Shapefile.ipynb)
-* [Load CSV and make GeoDataFrame](Load CSV and make GeoDataFrame.ipynb)
-* [Load and join from Excel sheets](Load and join from Excel sheets.ipynb)
+1. [Basic Geoplot Shapefile](01%20Basic%20Geoplot%20Shapefile.ipynb)
+2. [Load CSV and make GeoDataFrame](02%20Load%20CSV%20and%20make%20GeoDataFrame.ipynb)
+3. [Load and join from Excel sheets](03%20Load%20and%20join%20from%20Excel%20sheets.ipynb)
 
 
 More stuff
 ==========
 
-* 75000 city weather info csv files 
+* 75000 city weather info csv files (for big data in 2.) https://storage.googleapis.com/smart-backup/cities-weather-yearly.zip
 * nice tutorials to Geopandas http://jonathansoma.com/lede/foundations-2017/classes/geopandas/mapping-with-geopandas/
 
 License
