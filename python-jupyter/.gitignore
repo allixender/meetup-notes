@@ -1,4 +1,7 @@
-03-geo
-#/.ipynb_checkpoints/
+
+*/.ipynb_checkpoints/
 
 .ipynb_checkpoints/
+
+filtered_table.xlsx
+02-pandas/data/test_db.sqlite

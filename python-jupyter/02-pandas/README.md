@@ -1,5 +1,5 @@
-Pandas cookbook
-===============
+Pandas intro
+============
 
 [pandas](http://pandas.pydata.org/) is a Python library for doing
 data analysis. It's really fast and lets you do exploratory work

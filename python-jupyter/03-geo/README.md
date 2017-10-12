@@ -1,0 +1,31 @@
+GeoPandas intro
+===============
+
+http://geopandas.org/index.html
+
+GeoPandas is an open source project to make working with geospatial data in python easier.
+GeoPandas extends the datatypes used by pandas to allow spatial operations on geometric types.
+Geometric operations are performed by shapely.
+Geopandas further depends on fiona for file access and descartes and matplotlib for plotting.
+
+Table of Contents
+=================
+
+* [Basic Geoplot Shapefile](Basic%20Geoplot%20Shapefile.ipynb)
+* [Load CSV and make GeoDataFrame](Load CSV and make GeoDataFrame.ipynb)
+* [Load and join from Excel sheets](Load and join from Excel sheets.ipynb)
+
+
+More stuff
+==========
+
+* 75000 city weather info csv files 
+* nice tutorials to Geopandas http://jonathansoma.com/lede/foundations-2017/classes/geopandas/mapping-with-geopandas/
+
+License
+=======
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
+
