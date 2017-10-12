@@ -92,5 +92,4 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 
 This work uses some materials from the following repositories:
 - https://github.com/leriomaggio/python-in-a-notebook
-- https://github.com/jrjohansson/scientific-python-lectures
 - https://github.com/jvns/pandas-cookbook
