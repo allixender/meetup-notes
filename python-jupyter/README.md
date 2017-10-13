@@ -78,10 +78,16 @@ extract it to a LOCAL folder.
 Go back into the console/commandline prompt and change into that folder. There you should then start the Jupyter notebook.
 
 ```shell
-cd C:\Users\Alexander\Documents\meetup\python-jupyter
+# change into the directory where you extracted the materials, into the python-jupyter folder
 
+cd C:\Users\Alexander\Documents\meetup-notes\python-jupyter
+
+# make sure you have the corrent conda / python environment activated (indicated by the brackets at the begiining of the command prompt)
+# start the jupyter notebook server
 (py34) jupyter notebook
 ```
+
+You should get a website opening that lists you README files and the 3 folders. 
 
 # What To Do now 
 
@@ -90,16 +96,18 @@ introductory materials about programming in Python in general, the Pandas data m
 and the Geopandas geospatial library.
 
 This repository aims at different degrees of experience with the Python programming language and Python data manipultation and visualisation libraries.
-Each folder contains a `README.md` (the the online repository) and `README.notebook.md` (readme as readable Notebook) 
+Each folder contains a `README.md` (for the the online repository) and `README.notebook.md` (readme as readable Notebook) 
 file that list the contents and some details for each of the 3 big modules here:
 
 * 01 - Introduction to Python and the Jupyter Notebook
 * 02 - Introduction to the Pandas library
 * 03 - Introduction to the Geopandas library
 
+Open the `README.notebook.md` in the base folder and now take directions to the linked working notebooks and lessons from there.
+
 ## Topic 01: Python in a Notebook
 
-The folder `01-intro` contains notebooks that are intended to aid both students and teachers in learning and teaching 
+The folder [01-intro](./01-intro/) (Link to the [01 README.notebook](./01-intro/README.notebook.ipynb)) contains notebooks that are intended to aid both students and teachers in learning and teaching 
 Python programming, respectively.
 
 In more details, the goals of this module are:
@@ -114,7 +122,7 @@ In more details, the goals of this module are:
 data analysis. It's really fast and lets you do exploratory work
 incredibly quickly.
 
-The folder `02-pandas` contains a module that gives you some concrete examples for
+The folder [02-pandas](./02-pandas/) (Link to the [02 README.notebook](./02-pandas/README.notebook.ipynb)) contains a module that gives you some concrete examples for
 getting started with pandas. The [docs](http://pandas.pydata.org/pandas-docs/stable/)
 are really comprehensive. However, I've often had people
 tell me that they have some trouble getting started, so these are
@@ -123,7 +131,7 @@ that entails.
 
 ## Topic 03: Geospatial data wrangling with Geopandas
 
-The folder `03-geo` contains Jupyter Notebooks that demonstrate the use of the Geopandas library. 
+The folder [03-geo](./03-geo/) (Link to the [03 README.notebook](./03-geo/README.notebook.ipynb)) contains Jupyter Notebooks that demonstrate the use of the Geopandas library. 
 http://geopandas.org/index.html
 
 GeoPandas is an open source project to make working with geospatial data in python easier. 

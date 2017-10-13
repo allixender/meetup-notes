@@ -25,6 +25,7 @@ Table of Contents
 2. [Load CSV and make GeoDataFrame](02%20Load%20CSV%20and%20make%20GeoDataFrame.ipynb)
 3. [Load and join from Excel sheets](03%20Load%20and%20join%20from%20Excel%20sheets.ipynb)
 
+* Exercise: [Nested Data Frames - Storm episodes and events](Nested%20DataFrames%20-%20Storms.ipynb)
 
 More stuff
 ==========
