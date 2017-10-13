@@ -69,18 +69,37 @@ latest: http://pandas.pydata.org/pandas-docs/version/0.20.3/index.html (https://
 
 ## Getting started with the Jupyter notebook
 
+The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, 
+equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, 
+data visualization, machine learning, and much more.
+
+Download the full Meetup-Repositiry from https://github.com/allixender/meetup-notes/archive/master.zip and 
+extract it to a LOCAL folder.
+Go back into the console/commandline prompt and change into that folder. There you should then start the Jupyter notebook.
+
 ```shell
 cd C:\Users\Alexander\Documents\meetup\python-jupyter
 
 (py34) jupyter notebook
 ```
 
+
+
 ## Geospatial data wrangling with Geopandas
 
 http://geopandas.org/index.html
 
+GeoPandas is an open source project to make working with geospatial data in python easier. 
+GeoPandas enables you to easily do operations in python that would otherwise require a spatial database such as PostGIS.
+GeoPandas extends the datatypes used by pandas to allow spatial operations on geometric types. Geometric operations are performed by shapely. 
+Geopandas further depends on fiona for file access and descartes and matplotlib for plotting.
+
+We need to install the Geopandas python library and two libraries that we use to read and write from Excel-Spredsheets.
+
 ```shell
 (py34) conda install -c conda-forge geopandas
+
+(py34) conda install openpyxl xlrd
 ```
 
 ## licenses and Copyright Attributions

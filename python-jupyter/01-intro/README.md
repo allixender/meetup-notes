@@ -20,14 +20,20 @@ Table of Contents
   <br> Dictionaries allow us to store connected bits of information. For example, you might store a person's name and age together.
 * [Chapter 6: Introducing Functions](06%20Introduction%20to%20Functions.ipynb)
   <br> Functions mean less work for us as programmers, and effective use of functions results in code that is less error-prone.
-
+* [Chapter 7: Classes and OOP](07%Classes%20and%20OOP.ipynb)
+  <br> In this section you will learn about the last major data structure, classes. Classes are quite unlike the other data types, in that they are much more flexible. 
+  Classes allow you to define the information and behavior that characterize anything you want to model in your program.
+* [Chapter 8: Exceptions](08%Exceptions.ipynb)
+  <br> Exceptions which are events that can modify the *flow* of control through a program.  
+  In Python, exceptions are triggered automatically on errors, and they can be triggered and intercepted by your code.
+  
 * [Appendix: Python Coding Style](Python%20Coding%20Style.ipynb)
   <br> You are now starting to write Python programs that have a little substance. Your programs are growing a little longer, and there is a little more structure to your programs. 
   This is a really good time to consider your overall style in writing code.
 
 ## Running Notebooks ##
 
-All you need to do to play notebooks is to open a Terminal, and type the following command:
+All you need to do to play notebooks is to open a Terminal, and type the following command in your python-jupyter folder 
 
     jupyter notebook
     
