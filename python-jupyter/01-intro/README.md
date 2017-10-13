@@ -1,4 +1,4 @@
-# Python in a Notebook #
+# Python in a Notebook
 
 This repository contains a curated collection of Jupyter Notebooks of 
 introductory materials about programming in Python.

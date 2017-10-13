@@ -8,10 +8,12 @@ GeoPandas extends the datatypes used by pandas to allow spatial operations on ge
 Geometric operations are performed by shapely.
 Geopandas further depends on fiona for file access and descartes and matplotlib for plotting.
 
-We will need some Excel Python libs:
+We need to install the Geopandas python library and two libraries that we use to read and write from Excel-Spredsheets.
 
 ```shell
-(py34) conda install xlrd
+(py34) conda install -c conda-forge geopandas
+
+(py34) conda install openpyxl xlrd
 ```
 
 Maybe we also need "openpyxl", but let's try to not mix too many libs for same/similar purposes.

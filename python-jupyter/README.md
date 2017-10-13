@@ -1,4 +1,4 @@
-## Python Pandas Coding Meetup
+# Python Pandas Coding Meetup
 
 In this meetup we want to play with the 
 Jupyter Notebook (http://jupyter.org/) and do some data 
@@ -83,10 +83,47 @@ cd C:\Users\Alexander\Documents\meetup\python-jupyter
 (py34) jupyter notebook
 ```
 
+# What To Do now 
 
+This repository contains a curated collection of Jupyter Notebooks of 
+introductory materials about programming in Python in general, the Pandas data manipulation and visualisation toolkit, 
+and the Geopandas geospatial library.
 
-## Geospatial data wrangling with Geopandas
+This repository aims at different degrees of experience with the Python programming language and Python data manipultation and visualisation libraries.
+Each folder contains a `README.md` (the the online repository) and `README.notebook.md` (readme as readable Notebook) 
+file that list the contents and some details for each of the 3 big modules here:
 
+* 01 - Introduction to Python and the Jupyter Notebook
+* 02 - Introduction to the Pandas library
+* 03 - Introduction to the Geopandas library
+
+## Topic 01: Python in a Notebook
+
+The folder `01-intro` contains notebooks that are intended to aid both students and teachers in learning and teaching 
+Python programming, respectively.
+
+In more details, the goals of this module are:
+
+- Introduce students as quickly as possible to the basics of Python programming;
+- Introduce best practice as early as possible, while remaining accessible to students with no background in programming at all;
+- Provide teachers an easy-to-use material about programming in Python to be used in their lectures
+
+## Topic 02: Geospatial data wrangling with Geopandas
+
+[pandas](http://pandas.pydata.org/) is a Python library for doing
+data analysis. It's really fast and lets you do exploratory work
+incredibly quickly.
+
+The folder `02-pandas` contains a module that gives you some concrete examples for
+getting started with pandas. The [docs](http://pandas.pydata.org/pandas-docs/stable/)
+are really comprehensive. However, I've often had people
+tell me that they have some trouble getting started, so these are
+examples with real-world data, and all the bugs and weirdness
+that entails.
+
+## Topic 03: Geospatial data wrangling with Geopandas
+
+The folder `03-geo` contains Jupyter Notebooks that demonstrate the use of the Geopandas library. 
 http://geopandas.org/index.html
 
 GeoPandas is an open source project to make working with geospatial data in python easier. 
