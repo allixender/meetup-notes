@@ -42,6 +42,8 @@ Table of Contents
   <br> This is basically a quick trick that took me 2 days to figure out.
 * [Chapter 9 - Loading data from SQL databases](Chapter%209%20-%20Loading%20data%20from%20SQL%20databases.ipynb)
   <br> How to load data from an SQL database into Pandas, with examples using SQLite3
+* [Chapter 10 - Data Studio SOS Jupyter](Data%20Studio%20SOS%20Jupyter.ipynb)
+  <br> How to load data from an OGC Sensor Observation Service, native XML and OWSlib
 
 License
 =======
