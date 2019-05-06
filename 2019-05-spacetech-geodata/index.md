@@ -1,10 +1,12 @@
 ---
 author: Alexander Kmoch
 title: Where can I get free data about Earth, and what can I do with it?
-date: June 21, 2019
+date: May 02, 2019
 ---
 
 # Where can I get free data about Earth, and what can I do with it?
+
+See the live verison here: https://kodu.ut.ee/~kmoch/SpaceTech_2019_open_geodata/
 
 Alexander Kmoch
 
@@ -29,7 +31,6 @@ What can I do with it?
 ##
 
 ![](images/spatial_doodle.png)
-<img width="20%" data-src="images/spatial_doodle.png" alt="Alex">
 
 ---
 
@@ -86,11 +87,15 @@ What can I do with it?
 
 Location  needs always be expressed in relation to a reference system
 
-Geographic Coordinate Systems
-GPS Latitude/Longitude coordinates aka WGS84 aka EPSG:4326 (https://epsg.io/4326)
-Projected Coordinate Systems
-Estonian Coordinate system of 1997 aka EPSG:3301 (https://epsg.io/3301)
-ETRS89 / LAEA Europe aka EPSG:3035 (https://epsg.io/3035)
+Geographic Coordinate Systems:
+
+- GPS Latitude/Longitude coordinates aka WGS84 aka EPSG:4326 (https://epsg.io/4326)
+
+Projected Coordinate Systems:
+
+- Estonian Coordinate system of 1997 aka EPSG:3301 (https://epsg.io/3301)
+- ETRS89 / LAEA Europe aka EPSG:3035 (https://epsg.io/3035)
+
 AXIS ORDER!!!
 
 ---
@@ -98,7 +103,6 @@ AXIS ORDER!!!
 ## Open Data for everybody
 
 ![people stock picture](images/people_pic.png)
-<img width="20%" data-src="images/people_pic.png" alt="Alex">
 
 ---
 
@@ -111,7 +115,6 @@ http://cci.esa.int/data Ready-made thematic EO data products from ESA Climate Ch
 Various viewing options, Dashboard, leads to download options
 
 ![esa portal](images/esa_portal1.png)
-<img width="20%" data-src="images/esa_portal1.png" alt="Alex">
 
 ---
 
@@ -122,7 +125,6 @@ https://geoportaal.maaamet.ee/est/Teenused/ESTHub-p629.html (Informative Landing
 https://ehdatahub.maaamet.ee/dhus/#/home (Sentinel Data for Estonia)
 
 ![esthub portal](images/esa_portal2.png)
-<img width="20%" data-src="images/esa_portal2.png" alt="Alex">
 
 ---
 
@@ -147,7 +149,6 @@ Estonian Open Government Data Portal
 
 
 ![maaamet portal](images/maaamet.png)
-<img width="20%" data-src="images/maaamet.png" alt="Alex">
 
 ---
 
@@ -166,14 +167,12 @@ European INSPIRE Geoportal
 ##
 
 ![GEOSS geoportal](images/geoportal.png)
-<img width="20%" data-src="images/geoportal.png" alt="Alex">
 
 ---
 
 ##
 
 ![INSPIRE geoportal](images/inspire.png)
-<img width="20%" data-src="images/inspire.png" alt="Alex">
 
 ---
 
@@ -185,8 +184,7 @@ Spatial Context
 
 GIS
 
-![process blocks](processingblocks.png)
-<img width="20%" data-src="images/processingblocks.png" alt="Alex">
+![process blocks](images/processingblocks.png)
 
 ---
 
@@ -206,7 +204,6 @@ Advanced capabilities for the ESA Climate Change Initiative products
 ##
 
 ![SNAP toolbox download](images/snap_download.png)
-<img width="20%" data-src="images/snap_download.png" alt="Alex">
 
 ---
 
@@ -235,7 +232,6 @@ Java: Java Topology Suite (JTS), GeoTools, SNAP toolbox
 ##
 
 ![qgis](images/qgis_install.png)
-<img width="20%" data-src="images/qgis_install.png" alt="Alex">
 
 ---
 
@@ -252,7 +248,6 @@ R geospatial introduction: http://aasa.ut.ee/Rspatial/
 ##
 
 ![satellites list](images/satify_list.png)
-<img width="20%" data-src="images/satify_list.png" alt="Alex">
 
 ---
 
@@ -269,7 +264,7 @@ https://gisgeography.com/100-earth-remote-sensing-applications-uses/
 
 ## Introduction to SNAP
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9Y_5Q-932mM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Youtube SNAP](images/youtube_snap.png)](https://www.youtube.com/embed/9Y_5Q-932mM)
 
 ---
 
@@ -283,9 +278,6 @@ https://gisgeography.com/100-earth-remote-sensing-applications-uses/
 - E:  alexander.Kmoch (at) ut.ee
 - T:  https://twitter.com/allixender
 - L:  https://www.linkedin.com/in/allixender/
-
-![Alex Kmoch](images/alex.png)
-<img width="20%" data-src="images/alex.png" alt="Alex">
 
 
 ## Appendix: GIS and Remote Sensing web blog resources
