@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Where can I get free data about Earth, and what can I do with it?</title>
+
+	<meta name="description" content="Where can I get free data about Earth, and what can I do with it?">
+	<meta name="author" content="Alexander Kmoch">
+	<meta name="keywords" content="geospatial, geoinformatics, tartu, ogc, spacetech, sentinel, satellite, remote sensing, open source, osgeo, foss4g, fossgis, gis">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="reveal.js/css/reset.css">
+	<link rel="stylesheet" href="reveal.js/css/reveal.css">
+	<link rel="stylesheet" href="reveal.js/css/theme/league.css" id="theme">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="reveal.js/lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+
+	<style>
+		section {
+			text-align: left;
+		}
+	</style>
+
+	<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section data-background="images/splashpage.png">
+				<h2>Where can I get free data about Earth, and what can I do with it?</h2>
+				<img width="200" height="200" data-src="images/geog.png" alt="Dept. of Geography">
+				<p>SPARK Demo, Tartu, Estonia | 2nd of May 2019</p>
+			</section>
+
+			<section data-markdown style="text-align: left;">
+				<textarea data-template>
+						## Where can I get free data about Earth, and what can I do with it?
+
+						Alexander Kmoch
+
+						- Geoinformatics, Dept. of Geography
+						- Open Geospatial Consortium technical contact
+						- University of Tartu, Estonia
+
+						<img width="20%" data-src="images/alex.png" alt="Alex">
+
+					</textarea>
+
+			</section>
+
+			<section style="text-align: left;">
+				<p>
+					Where can I get free data about Earth? <br>
+					(... download all the data)
+				</p>
+				<p>
+					What can I do with it? <br>
+					(... and how)?
+				</p>
+			</section>
+
+			<section data-background="images/spatial_doodle.png" data-background-repeat="center">
+			</section>
+
+			<section style="text-align: left;">
+				<section>
+					<h2>Some (spatial data) background</h2>
+
+					<p>Use the <em>Space</em> key or <em>arrow</em> keys to navigate through slides.</p>
+					<br>
+					<a href="#" class="navigate-down">
+						<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+					</a>
+					
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+							Geometry (discrete location):
+
+							- Points
+							- Lines
+							- Polygons
+
+							- = Vector data
+							- "+" (plus) properties = Features
+							  
+						</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+							Vector (geom/feature) data formats:
+							  
+							- WKT Well Know Text: POINT(58.3, 26.7)
+							- WKB Well Known Binary
+							
+							- GeoJSON (web format -> JSON)
+							- Shapefile (classic, several files!)
+							- GeoPackage (sqlite with spatial capabitlities)
+							- KML/KMZ -> Google Earth
+						</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+							- Geometry (continuous location):
+
+							- Grid with cell size and origin
+							- "+" (plus) a cell value
+							- 1 or more “bands” (like layered grids)
+							- = Raster data
+							
+							- GeoTIFF
+							- ASCII Grid
+								
+						</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+							- Satellite Remote Sensing data is Raster data, e.g. in “.dim” format
+							- Optical and radar
+							
+							- Bands hold different wave lengths, values are the basically the intensity/amplitude of the reflection of a frequency-range
+							
+							- Different levels of “readiness” at download, e.g.:
+								- Atmospheric correction
+								- Cloud-cover
+								- Geo-referenced
+						</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+							Location  needs always be expressed in relation to a reference system
+
+							Geographic Coordinate Systems:
+							- GPS Latitude/Longitude coordinates aka WGS84 aka EPSG:4326 (https://epsg.io/4326)
+							
+							Projected Coordinate Systems:
+							- Estonian Coordinate system of 1997 aka EPSG:3301 (https://epsg.io/3301)
+							- ETRS89 / LAEA Europe aka EPSG:3035 (https://epsg.io/3035)
+
+							AXIS ORDER!!!
+						</textarea>
+				</section>
+
+			</section>
+
+			<section data-background="images/people_pic.png" data-background-repeat="center">
+				<h2>Open Data for everybody</h2>
+			</section>
+
+			<section data-markdown>
+				<textarea data-template>
+
+					## ESA Sentinel basics
+					
+					https://scihub.copernicus.eu/ Sentinel-1, Sentinel-2, Sentinel-3 and Sentinel-5P remote sensing products
+					Login required, just register
+					
+					http://cci.esa.int/data Ready-made thematic EO data products from ESA Climate Change Initiative
+					Various viewing options, Dashboard, leads to download options
+					</textarea>
+			</section>
+
+			<section>
+				<img data-src="images/esa_portal1.png" alt="ESA Scihub">
+			</section>
+
+			<section data-markdown>
+				<textarea data-template>
+
+					## ESA for Estonia: ESTHUB
+					
+					https://geoportaal.maaamet.ee/est/Teenused/ESTHub-p629.html (Informative Landing page)
+					
+					https://ehdatahub.maaamet.ee/dhus/#/home (Sentinel Data for Estonia)
+					
+					</textarea>
+			</section>
+
+			<section>
+				<img data-src="images/esa_portal2.png" alt="ESTHUB">
+			</section>
+
+			<section data-markdown>
+				<textarea data-template>
+
+					## NASA and USGS
+					
+					https://open.nasa.gov/open-data/
+					
+					https://earthexplorer.usgs.gov/
+				
+					</textarea>
+			</section>
+
+			<section data-markdown>
+				<textarea data-template>
+
+					## Conventional Geodata and Open Data in/for Estonia
+					
+					Maa-amet / Estonian Land Board
+					
+					- https://geoportaal.maaamet.ee/est/Andmed-ja-kaardid-p1.html
+					- https://geoportaal.maaamet.ee/eng/Maps-and-Data-p58.html
+					
+					Estonian Open Government Data Portal
+					
+					- https://opendata.riik.ee/en/
+				
+					</textarea>
+			</section>
+
+			<section>
+				<img data-src="images/maaamet.png" alt="Landboard">
+			</section>
+
+			<section data-markdown>
+				<textarea data-template>
+
+					## Conventional Geodata and Open Data EU/International
+					
+					The GEOSS portal, Earth Observation data from archives all over the world, implemented & operated by the European Space Agency.
+					
+					- http://www.geoportal.org/
+					
+					European INSPIRE Geoportal
+					
+					- http://inspire-geoportal.ec.europa.eu/
+				
+					</textarea>
+			</section>
+
+			<section>
+				<img data-src="images/geoportal.png" alt="Geoportal">
+			</section>
+
+			<section>
+				<img data-src="images/inspire.png" alt="INSPIRE">
+			</section>
+
+			<section data-markdown data-background="images/processingblocks.png">
+				<textarea data-template>
+
+						<h3>Processing</h3>
+						
+						<h3>Spatial Context</h3>
+						
+						<h3>GIS</h3>
+				
+					</textarea>
+			</section>
+
+			<section data-markdown>
+				<textarea data-template>
+
+					## ESA SNAP Toolbox
+					
+					SNAP Toolbox
+					
+					- http://step.esa.int/main/toolboxes/snap/
+					- https://sentinels.copernicus.eu/web/sentinel/user-guides
+					
+					Advanced capabilities for the ESA Climate Change Initiative products
+					
+					- http://climatetoolbox.io/
+				
+					</textarea>
+			</section>
+
+			<section>
+				<img data-src="images/snap_download.png" alt="SNAP">
+			</section>
+
+			<section data-markdown>
+				<textarea data-template>
+
+						## Collaborative Online Processing
+						
+						https://www.sentinel-hub.com/ 
+						
+						For processing online, needs registration and a “project”
+						
+						https://ehcalvalus.maaamet.ee/calest/calvalus.jsp (Processing, Estonian version of Sentinel HUB)
+						
+					</textarea>
+			</section>
+
+			<section data-markdown>
+				<textarea data-template>
+
+						## More Open Source and Open Edu
+						
+						QGIS, formerly Quantum GIS (https://www.qgis.org)
+						
+						GDAL (comes also with QGIS installs)
+						
+						Python libraries: shapely, geopandas, rasterio, gdal, eo-learn
+						
+						Java: Java Topology Suite (JTS), GeoTools, SNAP toolbox
+				
+					</textarea>
+			</section>
+
+			<section>
+				<img data-src="images/qgis_install.png" alt="QGIS">
+			</section>
+
+			<section data-markdown>
+				<textarea data-template>
+
+					## More Open Source and Open Edu
+					
+					Estonian Remote Sensing Resources: https://kaugseire.ee/
+					
+					Python geospatial introduction, shapely and geopandas: https://kodu.ut.ee/~kmoch/geopython2018/index.html 
+					
+					R geospatial introduction: http://aasa.ut.ee/Rspatial/
+				
+					</textarea>
+			</section>
+
+			<section>
+				<img data-src="images/satify_list.png" alt="Satify">
+			</section>
+
+			<section data-markdown>
+				<textarea data-template>
+
+					## More Open Source and Open Edu
+					
+					SpaceApps Tartu 2018 Satify: https://spacetartu.herokuapp.com/
+					
+					https://gisgeography.com/satellite-list/
+					
+					https://gisgeography.com/100-earth-remote-sensing-applications-uses/
+				
+					</textarea>
+			</section>
+
+			<section>
+
+				<h2>Introduction to SNAP</h2>
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/9Y_5Q-932mM" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+
+			</section>
+
+			<section>
+				<h3>Thank you & See you @SpaceTech!</h3>
+
+				<p><small>
+					Alexander KmochGeoinformatics, Dept. of Geography<br>
+					Open Geospatial Consortium technical contact<br>
+					University of Tartu, Estonia
+				</small></p>
+					
+				<p><small>
+					E:  alexander.Kmoch (at) ut.ee<br>
+					T:  <a href="https://twitter.com/allixender" target="_blank">allixender</a><br>
+					L:  <a href="https://www.linkedin.com/in/allixender/"  target="_blank">https://www.linkedin.com/in/allixender/</a>
+				</small></p>
+					
+				<img width="15%" data-src="images/alex.png" alt="Alex">
+
+			</section>
+
+		</div>
+
+	</div>
+
+	<script src="reveal.js/js/reveal.js"></script>
+
+	<script>
+
+		// More info https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			center: true,
+			hash: true,
+
+			transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+			// More info https://github.com/hakimel/reveal.js#dependencies
+			dependencies: [
+				{ src: 'reveal.js/plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+				{ src: 'reveal.js/plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+				{ src: 'reveal.js/plugin/highlight/highlight.js', async: true },
+				{ src: 'reveal.js/plugin/search/search.js', async: true },
+				{ src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+				{ src: 'reveal.js/plugin/notes/notes.js', async: true }
+			]
+		});
+
+	</script>
+
+</body>
+
+</html>
