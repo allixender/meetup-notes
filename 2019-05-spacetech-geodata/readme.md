@@ -209,7 +209,7 @@ Advanced capabilities for the ESA Climate Change Initiative products
 
 ## Collaborative Online Processing
 
-https://www.sentinel-hub.com/ 
+https://www.sentinel-hub.com/
 
 For processing online, needs registration and a “project”
 
@@ -253,7 +253,6 @@ R geospatial introduction: http://aasa.ut.ee/Rspatial/
 
 ## More Open Source and Open Edu
 
-
 SpaceApps Tartu 2018 Satify: https://spacetartu.herokuapp.com/
 
 https://gisgeography.com/satellite-list/
@@ -278,7 +277,6 @@ https://gisgeography.com/100-earth-remote-sensing-applications-uses/
 - E:  alexander.Kmoch (at) ut.ee
 - T:  https://twitter.com/allixender
 - L:  https://www.linkedin.com/in/allixender/
-
 
 ## Appendix: GIS and Remote Sensing web blog resources
 
