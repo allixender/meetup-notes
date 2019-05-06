@@ -263,7 +263,9 @@ https://gisgeography.com/100-earth-remote-sensing-applications-uses/
 
 ## Introduction to SNAP
 
-[![Youtube SNAP](images/youtube_snap.png)](https://www.youtube.com/embed/9Y_5Q-932mM)
+https://www.youtube.com/embed/9Y_5Q-932mM
+
+![Youtube SNAP](images/youtube_snap.png)
 
 ---
 
