@@ -6,7 +6,7 @@ date: May 02, 2019
 
 # Where can I get free data about Earth, and what can I do with it?
 
-See the live verison here: https://kodu.ut.ee/~kmoch/SpaceTech_2019_open_geodata/
+See the live version here: https://kodu.ut.ee/~kmoch/SpaceTech_2019_open_geodata/
 
 Alexander Kmoch
 
