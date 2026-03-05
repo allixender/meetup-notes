@@ -2,8 +2,8 @@
 
 All hail Python
 
-R is also ok
 
+R is amazing
 
 [Tartu GeoCode(formerly Tartu Coding Dojo)](https://www.meetup.com/Coding-Dojo-Tartu/)
 
