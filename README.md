@@ -2,6 +2,9 @@
 
 All hail Python
 
+R is also ok
+
+
 [Tartu GeoCode(formerly Tartu Coding Dojo)](https://www.meetup.com/Coding-Dojo-Tartu/)
 
 Collection of workshop materials and notes
